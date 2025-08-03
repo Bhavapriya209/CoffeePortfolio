@@ -1,11 +1,11 @@
-﻿# CoffeePortfolio
+
 # Coffee Portfolio
 
 This is a personal portfolio website designed and developed using HTML, CSS, and JavaScript. The purpose of this site is to showcase my skills, projects, and resume.
 
 ## ✅ Live Demo
 
-🔗 [Click here to view the live site](https://bhavapriya209.github.io/CoffeePortfolio/)  
+🔗 [Click here to view the live site](http://127.0.0.1:60481/) 
 (Note: Hosted using GitHub Pages. Please ensure browser cache is cleared if the latest changes aren't visible.)
 
 ## 📁 Features
@@ -28,4 +28,5 @@ This is a personal portfolio website designed and developed using HTML, CSS, and
 1. Clone the repo:
    ```bash
    git clone https://github.com/Bhavapriya209/CoffeePortfolio.git
+
 
