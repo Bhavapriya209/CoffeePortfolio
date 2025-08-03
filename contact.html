@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Me - Bhavapriya</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0d0d0d;
+      color: #f1f1f1;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem;
+      background: #1a1a1a;
+      border-bottom: 1px solid #333;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      color: #00ffd5;
+    }
+
+    .contact-container {
+      max-width: 600px;
+      margin: 2rem auto;
+      background-color: #1a1a1a;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 255, 213, 0.2);
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+      color: #cccccc;
+    }
+
+    input, textarea {
+      padding: 0.8rem;
+      margin-bottom: 1.2rem;
+      border: none;
+      border-radius: 5px;
+      background-color: #2a2a2a;
+      color: #f1f1f1;
+      font-size: 1rem;
+    }
+
+    input:focus, textarea:focus {
+      outline: 2px solid #00ffd5;
+    }
+
+    button {
+      padding: 1rem;
+      background-color: #00ffd5;
+      color: #0d0d0d;
+      font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #00c2a9;
+    }
+
+    .call-section {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .call-section a {
+      color: #00ffd5;
+      font-size: 1.2rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding: 1rem;
+      color: #666;
+      border-top: 1px solid #333;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Contact Me</h1>
+    <p>I'd love to hear from you! Feel free to send a message or give me a call.</p>
+  </header>
+
+  <div class="contact-container">
+    <form action="https://formsubmit.co/bhavapriya2004@gmail.com" method="POST">
+      <!-- Replace 'your@email.com' with your actual email -->
+
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" placeholder="Write your message..." required></textarea>
+
+      <!-- Optional settings -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="box">
+      <input type="hidden" name="_autoresponse" value="Thanks for reaching out! I will get back to you soon.">
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="call-section">
+      <p>📞 Prefer a call?</p>
+      <a href="tel:+919949990685">Click here to call me</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Bhimavrapu Bhavapriya. All rights reserved.
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Bhavapriya</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #333;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #00ffff;
+    }
+
+    .projects-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+      padding: 40px;
+    }
+
+    .project-card {
+      background-color: #1c1c1c;
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #333;
+      box-shadow: 0 0 10px rgba(0,255,255,0.15);
+      transition: transform 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 15px rgba(0,255,255,0.25);
+    }
+
+    .project-card h3 {
+      color: #00ffff;
+      margin-top: 0;
+    }
+
+    .project-card p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #ccc;
+    }
+
+    .project-card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #00ffff;
+      text-decoration: none;
+      border: 1px solid #00ffff;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+    .project-card a:hover {
+      background-color: #00ffff;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Projects</h1>
+  </header>
+
+  <div class="projects-container">
+
+    <div class="project-card">
+      <h3>EV Charging App</h3>
+      <p>A web application to locate nearby electric vehicle charging stations using Google Maps integration. Built using HTML, CSS, and JavaScript.</p>
+      <a href="https://github.com/Bhavapriya209/ev-charging-app" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Coffee Portfolio</h3>
+      <p>A visually pleasing coffee-themed portfolio built with modern web design principles. Great for personal branding and design practice.</p>
+      <a href="https://github.com/Bhavapriya209/CoffeePortfolio" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Chat Application</h3>
+      <p>A real-time chat app using JavaScript and Node.js. Simple UI with backend communication and local hosting setup.</p>
+      <a href="https://github.com/Bhavapriya209/Chat-Application" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>EPLQ Location App</h3>
+      <p>Maps-based web tool for locating places and markers efficiently. Created as a part of a learning project to improve geolocation handling.</p>
+      <a href="https://github.com/Bhavapriya209/EPLQ-Location-App" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Expense Tracker</h3>
+      <p>A personal finance tracker app to monitor income and expenses. Helps maintain budgets and visualize spending patterns.</p>
+      <a href="https://github.com/Bhavapriya209/Expense-Tracker" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>OCR Deep Learning System</h3>
+      <p>Deep learning based OCR notebook for automatic text extraction from images. Built using Python and neural networks.</p>
+      <a href="https://github.com/Bhavapriya209/deep-learning-based-ocr-for-automatic-text-extraction.git" target="_blank">View on GitHub</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
+
